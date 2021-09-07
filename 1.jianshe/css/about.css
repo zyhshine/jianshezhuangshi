@@ -1,0 +1,152 @@
+.about{
+    width: 100%;
+}
+.about-c{
+    width: 1200px;
+    margin: 0 auto;
+}
+.about .about-c .box-title{
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.about .box-title .r-title{
+    color: #668aca;
+}
+.about .about-c .nav{
+    width: 1200px;
+    margin: 0 auto;
+}
+.about .nav .cname{
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    color: #767676;
+}
+.about .nav .ename{
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    color: #6b6b6b;
+}
+.about .nav .line{
+    width: 30px;
+    height: 1px;
+    background-color: #989898;
+}
+.about .p-text{
+    margin-top: 30px;
+    width: 1200px;
+    /* background-color: aqua; */
+}
+.about .p-text-1{
+    width: 550px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+.about .p-text .p-text-1 .picture{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.about .p-text-1 .p-desc{
+    float: right;
+    width: 321px;
+}
+.about .p-text-1 .p-desc .name{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #6b6b6b;
+}
+.about .p-text-1 .p-desc .place{
+    color: #6b6b6b;
+    line-height: 32px;
+}
+.about .p-text-1 .p-desc .p-desc{
+    font-size: 12px;
+    color: #6b6b6b;
+    line-height: 25px;
+}
+.about .about-c .nav-1{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.about .nav-1 .cname{
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    color: #767676;
+}
+.about .nav-1 .ename{
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    color: #6b6b6b;
+}
+.about .nav-1 .line{
+    width: 30px;
+    height: 1px;
+    background-color: #989898;
+}
+.about .about-c .bp-text{
+    margin-bottom: 204px;
+}
+.about .l-text{
+    float: left;
+    width: 607px;
+    height: 300px;
+}
+.about .l-text .desc-1{
+    text-indent: 2em;
+    color: #989898;
+    line-height: 25px;
+    height: 38px;
+}
+.about .l-text .desc-2{
+    text-indent: 2em;
+    margin-top: 20px;
+    color: #989898;
+    line-height: 25px;
+    height: 63px;
+}
+.about .l-text .nav-2{
+    width: 607px;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.about .nav-2 .cname{
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    color: #767676;
+}
+.about .nav-2 .ename{
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    color: #6b6b6b;
+}
+.about .nav-2 .line{
+    width: 30px;
+    height: 1px;
+    background-color: #989898;
+}
+.about .l-text .desc-3{
+    text-indent: 2em;
+    color: #989898;
+}
+.about .r-picture{
+    float: right;
+    width: 500px;
+    height: 300px;
+}
+
+
+
+

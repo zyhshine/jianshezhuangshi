@@ -1,0 +1,542 @@
+/* 首页样式 */
+.banner{
+    width: 100%;
+    height: 714px;
+    background: url(http://www.bufantec.com/site/jianshe/static/img/banner.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.banner .btn{
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    transform: translateX(-50%);
+}
+.banner .btn span{
+    float: left;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    margin: 0 8px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+.banner .btn span:hover{
+    background-color: #668aca;
+    border-color: #fff;
+}
+
+/* 项目展示 */
+.project{
+    width: 100%;
+}
+.project-c{
+    /* background-color: aquamarine; */
+    width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    width: 1200px;
+    height: 54px;
+    margin-top: 120px;
+    position: relative;
+}
+.title .cname{
+    height: 30px;
+    font-size: 30px;
+    color: #767676;
+}
+.title .ename{
+    width: 106px;
+    height: 12px;
+    font-size: 12px;
+    color: #767676;
+    margin-top: 6px;
+}
+.title .line{
+    width: 60px;
+    height: 1px;
+    background-color: #a1a1a1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.title .long-line{
+    width: 300px;
+    height: 1px;
+    background-color: #a1a1a1;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* 项目导航 */
+.project .pro-nav{
+    width:1200px;
+    margin: 58px auto;
+}
+.project .center{
+    width: 340px;
+    height: 20px;
+    margin: 0 auto;
+}
+.project .pro-nav .pro-nav-item{
+    float: left;
+    width: 30px;
+    height: 16px;
+    line-height: 16px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.project .pro-nav .line{
+    float: left;
+    width: 1px;
+    height: 8px;
+    background-color: #767676;
+    margin-top: 5px;
+}
+.project .pro-nav .pro-nav-item::after{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 1px;
+    background-color: #668aca;
+    margin: 0 auto;
+    margin-top: 3px;
+    opacity: 0;
+}
+.project .pro-nav .pro-nav-item:hover a{
+    color: #668aca;
+}
+.project .pro-nav .pro-nav-item:hover::after{
+    opacity: 1;
+}
+/* 项目卡片 */
+.project .pro-list{
+
+}
+.project .pro-item{
+    position: relative;
+    float: left;
+    width: 360px;
+    height: 270px;
+    background-color: #fff;
+    margin-right: 60px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.project .pro-item .bg{
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: url(http://www.bufantec.com/site/jianshe/static/img/pro-img-1.0.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.project .pro-item .info{
+    position: relative;
+    padding: 0 50px;
+    height: 90px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.project .pro-item .info .text-t{
+    line-height: 14px;
+    height: 14px;
+    margin-top: 28px;
+}
+.project .pro-item .info .text-b{
+    line-height: 13px;
+    height: 13px;
+    font-size: 12px;
+    margin-top: 7px;
+}
+.project .pro-item .info .more{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+    background: url(http://www.bufantec.com/site/jianshe/static/img/arr0.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.project .pro-item .mask{
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    color: #fff;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: translateY(-100%);
+    padding: 0 50px;
+    transition: 0.4s;
+}
+.project .pro-item .mask .text-title{
+    font-size: 14px;
+    line-height: 15px;
+    height: 15px;
+    margin-top: 58px;
+}
+.project .pro-item .mask .text-desc{
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 4px;
+}
+.project .pro-item .mask .text{
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 14px;
+}
+/* 项目卡片 hover  */
+.project .pro-item:hover .bg{
+    background: url(../img/1项目卡片大.jpg) no-repeat center;
+    height: 100%;
+    background-size: 100% 100%;
+}
+.project .pro-item:hover .info{
+    opacity: 0;
+}
+.project .pro-item:hover .mask{
+    opacity: 1;
+    transform: translateY(0);
+}
+/* 产品展示 */
+/* 产品展示导航 */
+.product{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.product-c{
+    width: 1200px;
+    margin: 0 auto;
+}
+.product .nav{
+    width: fit-content;
+    margin: 54px auto 110px;
+}
+.product .nav .nav-item{
+    float: left;
+    width: 164px;
+    height: 114px;
+    border-radius: 5px;
+    margin-right: 80px;
+    position: relative;
+    transition: 0.4s;
+}
+.product .nav .nav-item .pg{
+    text-align: center;
+    padding-top: 9px;
+}
+.product .nav .nav-item .desc{
+    text-align: center;
+}
+.product .nav .nav-item::after{
+    content: '';
+    display: block;
+    width: 16px;
+    height: 1px;
+    background-color: #668aca;
+    margin: 0 auto;
+    opacity: 0;
+}
+.product .nav .nav-item:hover::after{
+    opacity: 1;
+}
+.product .nav .nav-item:hover .pg{
+   background-color: #668aca;
+   transition: 0.4s;
+}
+
+/* 产品部分 */
+
+.product .fnt{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.product .fnt .fnt-nav{
+    float: left;
+    width: 360px;
+    height: 360px;
+    margin-right: 60px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.product .fnt .fnt-nav .text-t{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #767676;
+}
+.product .fnt .fnt-nav .text-b{
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #767676;
+}
+/* 蒙层 */
+.product .fnt .fnt-nav .fnt-mask{
+    width: 360px;
+    height: 320px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.product .fnt .fnt-nav .fnt-mask .number{
+    font-size: 30px;
+    color: #f8f8f8;
+    width: 25px;
+    height: 23px;
+    margin-left: 84px;
+    margin-top: 131px;
+}
+.product .fnt .fnt-nav .fnt-mask .text-title{
+    font-size: 16px;
+    line-height: 20px;
+    color: #f8f8f8;
+    width: 230px;
+    height: 40px;
+    position: absolute;
+    left: 69px;
+    bottom: 109px;
+}
+.product .fnt .fnt-nav .fnt-mask .text-title div{
+    font-size: 14px;
+    color: #f8f8f8;
+    line-height: 20px;
+}
+.product .fnt .fnt-nav .fnt-mask .line{
+    width: 80px;
+    height: 1px;
+    background-color: #f8f8f8;
+    position: absolute;
+    left: 0;
+    top: 154px;
+}
+.product .fnt .fnt-nav:hover .fnt-mask{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0.4s;
+}
+
+/* 服务范围 */
+.service{
+    width: 100%;
+}
+.service .title{
+    margin: 0 auto;
+    margin-top: 123px;
+}
+.service .bg{
+    width: 100%;
+    height: 700px;
+    background: url(http://www.bufantec.com/site/jianshe/static/img/service-img.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 60px;
+}
+.service .bg .bg-c{
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.service .service-list{
+    position: absolute;
+    right: 3px;
+    bottom: 149px;
+}
+.service .service-item{
+    float: left;
+    width: 248px;
+    height: 148px;
+    border: 1px solid #fff;
+    border-right: none;
+    transition: 0.4s;
+    position: relative;
+}
+.service .service-item:last-child{
+    border: 1px solid #fff;
+}
+.service .service-item:hover{
+    transform: scale(1.05);
+    background-color: #668aca;
+    border: none;
+}
+.service .service-item .text{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 47px;
+}
+.service .service-item .line{
+    width: 30px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.service .service-item .text-b{
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 13px;
+}
+
+/* 新闻 */
+.news{
+    width: 100%;
+}
+.news-c{
+    width: 1200px;
+    margin: 0 auto;
+}
+.news .left-box{
+    float: left;
+    width: 570px;
+    height: 570px;
+    /* background-color: aqua; */
+    margin-top: 60px;
+}
+
+.news .left-box .t-box{
+    position: relative;
+    width: 570px;
+    height: 270px;
+    background: url(http://www.bufantec.com/site/jianshe/static/img/news-1.jpg);
+}
+.news .left-box .t-box .mask{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 570px;
+    height: 90px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: 0.4s;
+}
+.news .mask .t-text{
+    width: 220px;
+    height: 17px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 11px;
+    margin-left: 50px;
+}
+.news .mask .b-text{
+    width: 324px;
+    height: 34px;
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 16px;
+}
+.news .mask .more{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    position: absolute;
+    right: 50px;
+    top: 48px;
+}
+.news .left-box .t-box:hover .mask{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.news .left-box .bl-box{
+    float: left;
+    width: 270px;
+    height: 270px;
+    margin-top: 30px;
+    background: url(http://www.bufantec.com/site/jianshe/static/img/news-3.jpg) no-repeat center;
+}
+.news .left-box .bl-box .mask{
+    width: 270px;
+    height: 90px;
+    transform: translateY(180px);
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+   transition: 0.4s;
+}
+.news .left-box .bl-box:hover .mask{
+    opacity: 1;
+    transition: 0.4s;
+}
+.news .left-box .br-box{
+    float: right;
+    width: 270px;
+    height: 270px;
+    margin-top: 30px;
+    background: url(http://www.bufantec.com/site/jianshe/static/img/news-4.jpg) no-repeat center;
+}
+.news .left-box .br-box .mask{
+    width: 270px;
+    height: 90px;
+    transform: translateY(180px);
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+   transition: 0.4s;
+}
+.news .left-box .br-box:hover .mask{
+    opacity: 1;
+    transition: 0.4s;
+}
+.news .right-box{
+    margin-top: 60px;
+    float: right;
+    width: 570px;
+    height: 570px;
+    background: url(http://www.bufantec.com/site/jianshe/static/img/news-2.jpg) no-repeat center;
+}
+.news .right-box .mask{
+    transform: translateY(480px);
+    width: 570px;
+    height: 90px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: 0.4s;
+}
+.news .right-box:hover .mask{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+/* 关于部分 */
+.about{
+    width: 100%;
+}
+.about .about-c{
+    width: 1200px;
+    margin: 0 auto;
+}
+.about .about-c .bg{
+    float: left;
+    width: 500px;
+    height: 300px;
+    background: url(http://www.bufantec.com/site/jianshe/static/img/about-us.jpg) no-repeat center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 30px;
+}
+.about .about-c .text{
+    width: 670px;
+    height: 300px;
+    float: right;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* background-color: cyan; */
+}
+.about .text .text-1,.text-2,.text-3{
+    color: #767676;
+    line-height: 21px;
+    width: 670px;
+    margin-top: 30px;
+}

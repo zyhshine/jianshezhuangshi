@@ -1,0 +1,64 @@
+.news{
+    width: 100%;
+}
+.news-c{
+    width: 1200px;
+    margin: 0 auto;
+}
+.news .news-c .box-title{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 14px;
+    height: 14px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.news .box-title .r-title{
+    color: #668aca;
+}
+.news .news-c .bd-box{
+    width: 1200px;
+}
+.news .news-c .picture{
+    float: left;
+    width: 600px;
+    height: 830px;
+}
+.news .news-c .picture .pt-box{
+    width: 600px;
+    height: 400px;
+    background: url(http://www.bufantec.com/site/jianshe/pages/news/static/img/news-img-1.jpg) no-repeat center;
+}
+.news .news-c .picture .pb-box{
+    width: 600px;
+    height: 400px;
+    margin-top: 30px;
+    background: url(http://www.bufantec.com/site/jianshe/pages/news/static/img/news-img-2.jpg) no-repeat center;
+}
+.news .text-box{
+    width: 490px;
+    float: right;
+    /* background-color: aqua; */
+}
+.news .text-box .box-1{
+   margin-bottom: 70px;
+}
+.news .text-box .title{
+    float: left;
+    font-size: 18px;
+    line-height: 53px;
+    color: #6b6b6b;
+
+}
+.news .text-box .date{
+    float: right;
+    height: 53px;
+    font-size: 18px;
+    line-height: 53px;
+    color: #6b6b6b;
+}
+.news .text-box .text-list{
+    line-height: 25px;
+    color: #989898;
+}

@@ -1,0 +1,158 @@
+html,body{
+    scroll-behavior: smooth;
+    /* w网页滚动变平滑 */
+}
+.banner{
+    width: 100%;
+}
+.banner .banner-c{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background: url(http://www.bufantec.com/site/jianshe/pages/project/static/img/banner.jpg) no-repeat center;
+}
+.product{
+    width: 100%;
+}
+.product .product-c{
+    width: 1200px;
+    margin: 0 auto;
+}
+.product .box-hd{
+    padding-top: 54px;
+    padding-bottom: 69px;
+}
+.product .box-title{
+    float: left;
+    font-size: 14px;
+    line-height: 14px;
+    height: 14px;
+}
+.product .box-title .r-title{
+    color: #668aca;
+}
+.product .sub-nav{
+    float: right;
+}
+.product .sub-nav-item{
+    float: left;
+    width: 97px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+/* 导航竖线 */
+.product .sub-nav .line{
+    float: left;
+    width: 1px;
+    height: 8px;
+    background-color: #767676;
+    margin-top: 5px
+}
+
+/* 导航跟随线 */
+.product .sub-nav-item::after{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 1px;
+    background-color: #668aca;
+    margin: 0 auto;
+    margin-top: 3px;
+    opacity: 0;
+}
+.product .sub-nav-item:hover a{
+    font-size: 16px;
+    color: #668aca;
+}
+.product .sub-nav-item:hover::after{
+    opacity: 1;
+}
+
+/* 激活位样式 */
+.product .sub-nav-item.active a{
+    color: #668aca;
+    font-size: 16px;
+}
+.product .sub-nav-item.active::after{
+    opacity: 1;
+}
+/* 产品部分 */
+.product .fnt{
+    width: 1200px;
+}
+.product .fnt .fnt-nav{
+    float: left;
+    width: 360px;
+    height: 360px;
+    margin-right: 60px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.product .fnt .fnt-nav .bg{
+    width: 360px;
+    height: 320px;
+}
+.product .fnt .fnt-nav .text-t{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #767676;
+}
+.product .fnt .fnt-nav .text-b{
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #767676;
+}
+/* 蒙层 */
+.product .fnt .fnt-nav .fnt-mask{
+    width: 360px;
+    height: 320px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.product .fnt .fnt-nav .fnt-mask .number{
+    font-size: 30px;
+    color: #f8f8f8;
+    width: 25px;
+    height: 23px;
+    margin-left: 84px;
+    margin-top: 131px;
+}
+.product .fnt .fnt-nav .fnt-mask .text-title{
+    font-size: 16px;
+    line-height: 20px;
+    color: #f8f8f8;
+    width: 230px;
+    height: 40px;
+    position: absolute;
+    left: 69px;
+    bottom: 109px;
+}
+.product .fnt .fnt-nav .fnt-mask .text-title div{
+    font-size: 14px;
+    color: #f8f8f8;
+    line-height: 20px;
+}
+.product .fnt .fnt-nav .fnt-mask .line{
+    width: 80px;
+    height: 1px;
+    background-color: #f8f8f8;
+    position: absolute;
+    left: 0;
+    top: 154px;
+}
+.product .fnt .fnt-nav:hover .fnt-mask{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0.4s;
+}

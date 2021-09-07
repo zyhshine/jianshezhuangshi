@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    color: #767676;
+    font-size: 14px;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.mr0{
+    margin-right: 0 !important; 
+}
+.ml0{
+    margin-left: 0 !important;
+}

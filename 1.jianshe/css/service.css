@@ -1,0 +1,65 @@
+.service{
+    width: 100%;
+}
+.service-c{
+    width: 1200px;
+    margin: 0 auto;
+}
+.service .service-c .box-title{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 14px;
+    height: 14px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.service-c .box-title .r-title{
+    color: #668aca;
+}
+.service .p-text{
+    width: 1200px;
+}
+.service .p-text .b-text{
+    float: left;
+}
+.service .p-text .text{
+    width: 368px;
+}
+.service .p-text .title{
+    font-size: 18px;
+    line-height: 28px;
+    color: #6b6b6b;
+}
+.service .p-text .title-e{
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 21px;
+    color: #989898;
+}
+.service .p-text .desc{
+    margin-top: 18px;
+    line-height: 21px;
+    color: #989898;
+}
+.service .p-text .line{
+    margin-top: 20px;
+    width: 328px;
+    height: 1px;
+    background-color: #f0f0f0f0;
+}
+.service .p-text .picture{
+    float: right;
+}
+.service .p-text .picture-1{
+    width: 750px;
+    height: 400px;
+    background: url(http://www.bufantec.com/site/jianshe/pages/service/static/img/service-img-1.jpg) no-repeat center;
+}
+.service .p-text .picture-2{
+    margin-top: 30px;
+    margin-bottom: 200px;
+    width: 750px;
+    height: 400px;
+    background: url(http://www.bufantec.com/site/jianshe/pages/service/static/img/service-img-2.jpg) no-repeat center;
+}
